@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Hello</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <style>
+        .col-2 {
+            background-color: gray;
+            height: 1000px;
+        }
+
+        .nav-link {
+            padding: 4px;
+        }
+    </style>
+    <div class="row">
+        <div class="col-2">
+            <a class="navbar-brand" href="#">
+                <h1>Logo</h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-nav">
+                <a class="nav-link active" aria-current="page" href="#">
+                    <h4>Home</h4>
+                </a>
+                <hr>
+                <a class="nav-link" href="#">
+                    <h4>Transactions</h4>
+                </a>
+                <hr>
+                <a class="nav-link" href="#">
+                    <h4>Sales</h4>
+                </a>
+                <hr>
+                <a class="nav-link" href="#">
+                    <h4>Products</h4>
+                </a>
+                <hr>
+                <a class="nav-link" href="#">
+                    <h4>Members</h4>
+                </a>
+                <hr>
+                <a class="nav-link" href="#">
+                    <h4>Investment</h4>
+                </a>
+                <hr>
+                <a class="nav-link" href="#">
+                    <h4>Analysis</h4>
+                </a>
+                <hr>
+                <a class="nav-link" href="#">
+                    <h4>Reporting</h4>
+                </a>
+            </div>
+        </div>
+        <div class="col-10">
+            <nav class="navbar bg-body-light">
+                <div class="container-fluid">
+                    <h4>Add Product</h4>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </nav>
+            <div class="row">
+                <div class="col-6">
+                    <h1>Ecommerce Dashboard</h1>
+                    <p class="card-text"><small class="text-body-secondary">Dashboard > Ecommerce Dashboard</small></p>
+                </div>
+                <div class="col-6">
+                    <div class="dropdown" style="padding: 10px;">
+                        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Maharashtra
+                        </a>
+
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Andra Pradesh</a></li>
+                            <li><a class="dropdown-item" href="#">Tamil Nadu</a></li>
+                            <li><a class="dropdown-item" href="#">Gujrat</a></li>
+                            <li><a class="dropdown-item" href="#">Uttar Pradesh</a></li>
+                            <li><a class="dropdown-item" href="#">Madhya Pradesh</a></li>
+                        </ul>
+                    </div>
+                    <div class="btn-group" role="group" aria-label="Basic example">
+                        <button type="button" class="btn btn-primary">Left</button>
+                        <button type="button" class="btn btn-primary">Middle</button>
+                        <button type="button" class="btn btn-primary">Right</button>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
